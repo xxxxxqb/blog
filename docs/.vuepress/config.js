@@ -46,7 +46,7 @@ module.exports = {
               children: [
                 {
                   text: 'vue',
-                  link: '/study/vue/'
+                  link: '/study/vue/know_vue/README.md'
                 }
               ]
             }
@@ -54,15 +54,19 @@ module.exports = {
           sidebar:{
             '/study/vue/': [
               {
-                text: 'vue',
+                text: '認識vue',
                 children: [
                   {
-                    text: '认识vue',
-                    link: '/study/vue/README.md'
+                    text: '什麼是vue',
+                    link: '/study/vue/know_vue/README.md'
                   },
                   {
-                    text: '认识vue2',
-                    link: '/study/vue/README.md'
+                    text: 'vue的工作原理',
+                    link: '/study/vue/know_vue/WorkingPrinciple.md'
+                  },
+                  {
+                    text: 'vue的工作機制',
+                    link: '/study/vue/know_vue/WorkingMechanism.md'
                   }
                 ]
               }
