@@ -69,6 +69,10 @@ module.exports = {
                     link: '/study/vue/know_vue/WorkingMechanism.md'
                   }
                 ]
+              },
+              {
+                text: '安裝',
+                link: '/study/vue/install/README.md'
               }
             ]
           },
@@ -106,5 +110,9 @@ module.exports = {
       palettePlugin({
         userStyleFile: '.vuepress/styles/custom.css'
       }),
+      "import", {
+        "libraryName": "vue-canvas-effect",
+        "libraryDirectory": "src/components"
+      }
     ],
   }

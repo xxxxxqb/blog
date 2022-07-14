@@ -4,10 +4,7 @@ lastUpdated: false
 sidebar: false
 ---
 
-这是一个首页
-
-
-
+首頁
 <style scope>
 :root {
     scroll-behavior: smooth;
