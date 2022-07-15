@@ -73,6 +73,24 @@ module.exports = {
               {
                 text: '安裝',
                 link: '/study/vue/install/README.md'
+              },
+              {
+                text: '編寫風格',
+                link: '/study/vue/style/README.md'
+              }
+              ,
+              {
+                text: '基礎',
+                children:[
+                  {
+                    text: '創建一個 Vue 應用',
+                    link: '/study/vue/basic/README.md'
+                  },
+                  {
+                    text: '模板語法',
+                    link: '/study/vue/basic/template_syntax.md'
+                  }
+                ]
               }
             ]
           },

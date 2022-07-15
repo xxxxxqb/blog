@@ -18,6 +18,7 @@ lastUpdated: true
             }
            }
     }).mount('#app')
+</script>
 ```
 
 ### npm
@@ -80,6 +81,9 @@ lastUpdated: true
    |                                   | 不同的开发服务器与构建工具        |
 
 webpack:
+
 ![](./images/b56ff9b0017443959115975b014725a0.png)
+
 vite:
+
 ![](./images/89a1bbbb861b4a0498aa9e330774206b.png)
