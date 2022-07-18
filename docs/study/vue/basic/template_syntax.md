@@ -95,5 +95,24 @@ export default {
 
 Attribute也可以使用js表達式和函數，格式同`v-html`和`Mustache`。
 
-屬性名可以傳 Vue property，但需要加`[ ]`， 但不能使用js表達式和函數
+屬性名可以傳 Vue property，但需要加`[ ]`， 但不能使用js表達式和函數:
+
+
+
+```vue
+<template>
+  <p :[attrName]="attrValue">綁定屬性名</p>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      attrName: 'id',
+      attrValue: 'content_body'
+    }
+  }
+}
+</script>
+```
 

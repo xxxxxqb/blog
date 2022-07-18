@@ -90,6 +90,19 @@ module.exports = {
                     text: '模板語法',
                     link: '/study/vue/basic/template_syntax.md'
                   }
+                  ,
+                  {
+                    text: '聲明響應式狀態',
+                    link: '/study/vue/basic/reactivity_fundamentals.md'
+                  },
+                  {
+                    text: '列表渲染',
+                    link: '/study/vue/basic/list_rendering.md'
+                  },
+                  {
+                    text: '事件處理',
+                    link: '/study/vue/basic/event.md'
+                  }
                 ]
               }
             ]
