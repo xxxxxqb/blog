@@ -103,6 +103,11 @@ module.exports = {
                     text: '事件處理',
                     link: '/study/vue/basic/event.md'
                   }
+                  ,
+                  {
+                    text: '表單綁定',
+                    link: '/study/vue/basic/form.md'
+                  }
                 ]
               }
             ]
