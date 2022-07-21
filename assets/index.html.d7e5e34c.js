@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-15054f24","path":"/note/","title":"","lang":"zh-CN","frontmatter":{"editLink":false,"lastUpdated":false,"sidebar":false},"excerpt":"","headers":[],"git":{"updatedTime":1657612501000,"contributors":[{"name":"arvin","email":"arvin.duan@mic.com.tw","commits":1}]},"filePathRelative":"note/README.md"}');export{e as data};
