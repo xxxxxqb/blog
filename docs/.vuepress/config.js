@@ -77,8 +77,7 @@ module.exports = {
               {
                 text: '編寫風格',
                 link: '/study/vue/style/README.md'
-              }
-              ,
+              },
               {
                 text: '基礎',
                 children:[
@@ -102,11 +101,60 @@ module.exports = {
                   {
                     text: '事件處理',
                     link: '/study/vue/basic/event.md'
-                  }
-                  ,
+                  },
+                  {
+                    text: '計算屬性',
+                    link: '/study/vue/basic/computed.md'
+                  },
                   {
                     text: '表單綁定',
                     link: '/study/vue/basic/form.md'
+                  },
+                  {
+                    text: '獲取元素ref',
+                    link: '/study/vue/basic/ref.md'
+                  },
+                  {
+                    text: '生命周期',
+                    link: '/study/vue/basic/statement-period.md'
+                  }
+                ]
+              },
+              {
+                text: '組件',
+                children: [
+                  {
+                    text: '註冊組件',
+                    link: '/study/vue/components/register.md'
+                  },
+                  {
+                    text: 'Prop',
+                    link: '/study/vue/components/prop.md'
+                  },
+                  {
+                    text: 'emit',
+                    link: '/study/vue/components/emit.md'
+                  },
+                  {
+                    text: 'Slot',
+                    link: '/study/vue/components/Slot.md'
+                  },
+                  {
+                    text: 'Provide&Inject',
+                    link: '/study/vue/components/Provide&Inject.md'
+                  }
+                ]
+              },
+              {
+                text: '樣式相關',
+                children: [
+                  {
+                    text: 'class 和 style 綁定',
+                    link: '/study/vue/css/class&style.md'
+                  },
+                  {
+                    text: '單文件組件 CSS 功能',
+                    link: '/study/vue/css/單文件組件CSS功能.md'
                   }
                 ]
               }
