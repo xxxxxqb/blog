@@ -67,12 +67,29 @@ module.exports = {
                   {
                     text: 'vue的工作機制',
                     link: '/study/vue/know_vue/WorkingMechanism.md'
+                  },
+                  {
+                    text: '使用vue的多種方式',
+                    link: '/study/vue/know_vue/WaysOfUsingVue.md'
                   }
                 ]
               },
               {
                 text: '安裝',
                 link: '/study/vue/install/README.md'
+              },
+              {
+                text: '單組件文件',
+                children:[
+                  {
+                    text: '單組件文件',
+                    link: '/study/vue/SFC/SFC.md'
+                  },
+                  {
+                    text: 'setup',
+                    link: '/study/vue/SFC/setup.md'
+                  }
+                ]
               },
               {
                 text: '編寫風格',
@@ -105,6 +122,10 @@ module.exports = {
                   {
                     text: '計算屬性',
                     link: '/study/vue/basic/computed.md'
+                  },
+                  {
+                    text: '偵聽器',
+                    link: '/study/vue/basic/watch.md'
                   },
                   {
                     text: '表單綁定',
