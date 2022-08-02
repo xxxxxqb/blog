@@ -178,6 +178,39 @@ module.exports = {
                     link: '/study/vue/css/單文件組件CSS功能.md'
                   }
                 ]
+              },
+              {
+                text: '路由',
+                children: [
+                  {
+                    text: '路由基礎',
+                    link: '/study/vue/route/basic.md'
+                  },
+                  {
+                    text: '路由',
+                    link: '/study/vue/route/Route.md'
+                  },
+                  {
+                    text: '路由',
+                    link: '/study/vue/route/Route.md'
+                  },
+                  {
+                    text: '路由守衛',
+                    link: '/study/vue/route/Route.md'
+                  },
+                  {
+                    text: '程式設計式導航',
+                    link: '/study/vue/route/ProgrammedNavigation.md'
+                  },
+                  {
+                    text: 'Vue Router 和組合式API',
+                    link: '/study/vue/route/setup.md'
+                  },
+                  {
+                    text: '路由懶加載',
+                    link: '/study/vue/route/laoding.md'
+                  }
+                ]
               }
             ]
           },

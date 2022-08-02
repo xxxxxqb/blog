@@ -44,6 +44,32 @@ export default {
 
 在單文件組件中，組合式 API 通常會與 *\<script setup\>* 搭配使用。這個 *setup attribute* 是一個*標識*，告訴 Vue 需要在編譯時進行轉換，來減少使用組合式 API 時的樣板代碼。（個人感覺這是面向過程）
 
+``` vue
+<template>
+  <span>{{ count }}</span>
+  <button @click="increment">+1</button>
+</template>
+
+<script>
+import { ref } from 'vue'
+export default {
+  setup () {
+    const count = ref(0)
+    function increment () {
+      count.value++
+    }
+    return {
+      count,
+      increment
+    }
+  },
+}
+
+</script>
+```
+
+或：
+
 ```vue
 <template>
   <span>{{ count }}</span>
@@ -60,6 +86,62 @@ export default {
     count.value++
   }
 
+</script>
+```
+
+可以混合使用：
+
+``` js
+<template>
+  <span>{{ count }}</span>
+  <button @click="increment">+1</button>
+</template>
+
+<script>
+
+import { ref } from 'vue'
+
+export default {
+  setup () {
+    const count = ref(0)
+    function increment () {
+      count.value++
+    }
+    return {
+      count,
+      increment
+    }
+  },
+  mounted () {
+    console.log(this.count)
+  }
+}
+</script>
+```
+
+或者：
+
+``` js
+<template>
+  <span>{{ count }}</span>
+  <button @click="increment">+1</button>
+</template>
+
+<script setup>
+  import { ref } from 'vue'
+  const count = ref(0)
+  function increment () {
+    count.value++
+  }
+</script>
+
+<script>
+    
+export default {
+  mounted () {
+    console.log(this.count)
+  }
+}
 </script>
 ```
 

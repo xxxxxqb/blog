@@ -116,3 +116,29 @@ export default {
 </script>
 ```
 
+### 其它
+
+#### `v-text`
+
+``` vue
+<span v-text="msg"></span>
+<!-- 等同于 -->
+<span>{{msg}}</span>
+```
+
+#### `v-once`
+
+僅渲染元素和組件一次，並跳過之後的更新
+
+``` vue
+<span v-once>This will never change: {{msg}}</span>
+```
+
+#### `v-pre`
+
+所有Vue 模板語法都會被保留並按原樣渲染
+
+``` vue
+<span v-pre>{{ this will not be compiled }}</span>
+```
+
