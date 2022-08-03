@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as n,a as _}from"./app.ca1f7dd6.js";const c={},o=_("p",null,"vue en",-1),s=[o];function a(r,l){return t(),n("div",null,s)}var i=e(c,[["render",a],["__file","index.html.vue"]]);export{i as default};
